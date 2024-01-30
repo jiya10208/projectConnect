@@ -1,0 +1,43 @@
+.all_content {
+  display: flex;
+  height: 30rem;
+  margin: 5rem 2rem;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+}
+
+.all_content p p {
+  padding: 0;
+}
+.all_content p {
+  font-size: 1.1rem;
+  padding: 0 4rem;
+  color: rgb(44, 42, 38);
+}
+.all_content p strong {
+  font-size: 2.2rem;
+  color: rgb(33, 23, 23);
+}
+.image {
+  height: 90%;
+}
+
+.image img {
+  height: 100%;
+  object-fit: fill;
+}
+
+@media screen and (max-width: 992px) {
+  .all_content {
+    flex-flow: column;
+    height: fit-content;
+  }
+  .all_content .image {
+    height: 20rem;
+  }
+
+  .all_content p {
+    font-size: 0.9rem;
+  }
+}

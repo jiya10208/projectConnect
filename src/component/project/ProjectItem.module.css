@@ -1,0 +1,30 @@
+.link {
+  text-decoration: none;
+}
+.projectItem {
+  border: 2px solid black;
+  padding: 15px;
+  margin: 40px 10px;
+  border-radius: 27px;
+  background-color: #f9ebe4;
+  flex-flow: column;
+}
+.About {
+  display: flex;
+}
+.About div {
+  height: 3rem;
+  margin: 0px 20px 5px 0px;
+}
+.About div img {
+  height: 100%;
+  width: 100%;
+
+  border-radius: 60px;
+  border: 5px double rgb(190, 99, 99);
+}
+
+.owner {
+  font-weight: 500;
+  font-style: italic;
+}

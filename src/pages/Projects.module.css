@@ -1,0 +1,33 @@
+.container {
+  width: 98vw;
+
+  background-color: #d6e8cc;
+  display: flex;
+}
+
+.sidebar {
+  /* width: 30%;/ */
+  height: inherit;
+  flex: 1;
+}
+.project {
+  width: auto;
+  flex: 3;
+}
+.navbar {
+  position: absolute;
+  visibility: hidden;
+}
+@media (max-width: 900px) {
+  .sidebar {
+    visibility: hidden;
+    position: absolute;
+  }
+  .navbar {
+    position: relative;
+    visibility: visible;
+  }
+  .project {
+    padding-top: 50px;
+  }
+}
